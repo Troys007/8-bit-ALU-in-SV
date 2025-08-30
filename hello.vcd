@@ -1,0 +1,62 @@
+$date
+	Sat Aug 30 14:54:58 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_alu $end
+$var wire 1 ! zf $end
+$var wire 8 " y [7:0] $end
+$var wire 1 # cf $end
+$var reg 8 $ a [7:0] $end
+$var reg 8 % b [7:0] $end
+$var reg 2 & op [1:0] $end
+$scope module uut $end
+$var wire 8 ' a [7:0] $end
+$var wire 8 ( b [7:0] $end
+$var wire 2 ) op [1:0] $end
+$var wire 1 ! zf $end
+$var wire 8 * y [7:0] $end
+$var wire 1 # cf $end
+$var reg 9 + tmp [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11001 +
+b11001 *
+b0 )
+b1111 (
+b1010 '
+b0 &
+b1111 %
+b1010 $
+0#
+b11001 "
+0!
+$end
+#10
+b11111011 "
+b11111011 *
+1#
+b111111011 +
+b1 &
+b1 )
+#20
+b1010 "
+b1010 *
+0#
+b1010 +
+b10 &
+b10 )
+#30
+b1111 "
+b1111 *
+b1111 +
+b11 &
+b11 )
+#40
